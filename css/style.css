@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container-fullwidth {
+    background-color: #0d325a;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    height: 500px;
+    background-color: red;
+}
+
+header {
+    height: 70px;
+    background-color: orange;
+}
+
+.grigio {
+    background-color: grey;
+}
+
+.bianco {
+    background-color: white;
+}
+
+.riga-grigia {
+    height: 100px;
+    background-color: lightgrey;
+}
+
+.banner {
+    /* inserire link img omini */
+    background-image: url();
+    height: 500px;
+}
+
+.riga-bianca {
+    height: 100px;
+    background-color: white;
+    width: 100%;
+}
+
+.cards {
+    width: 33.33%;
+    float: left;
+    /* da cancellare */
+    height: 200px;
+    background-color: purple;
+    border: 1px solid black;
+}
