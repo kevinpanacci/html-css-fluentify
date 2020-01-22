@@ -20,7 +20,6 @@
     width: 80%;
     max-width: 1200px;
     margin: 0 auto;
-    background-color: red;
     position: relative;
 }
 
@@ -42,7 +41,6 @@
 
 header {
     height: 70px;
-    background-color: orange;
 }
 
 /* INIZIO BANNER */
@@ -79,7 +77,6 @@ header {
     color: white;
 }
 
-
 .menu a {
     text-decoration: none;
     color: #849ab1;
@@ -96,7 +93,7 @@ header {
 
 h1 {
     color: white;
-    font-size: 35px;
+    font-size: 40px;
 }
 
 .text {
@@ -122,8 +119,9 @@ h1 {
 /* Inizio primo testo */
 
 
-.grigio {
+.mid{
     background-color: white;
+    margin-top: 20px;
 }
 
 .riga-grigia {
@@ -133,6 +131,7 @@ h1 {
 }
 
 .testo {
+    width: 600px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -141,17 +140,21 @@ h1 {
 
 .testo h3 {
     color: #4a4a4a;
-    margin: 10px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 20px;
 }
 
 .testo p {
     color: #849ab1;
-    font-size: 20px;
+    font-size: 15px;
 }
 /*  Fine primo testo */
 
 /* riga immagini */
-.bianco {
+.bot {
+    margin-top: 50px;
     background-color: white;
 }
 
@@ -166,10 +169,8 @@ h1 {
 .cards {
     width: 33.33%;
     float: left;
-    /* da cancellare */
     height: 200px;
     background-color: white;
-    border: 1px solid black;
     position: relative;
 }
 /* IMMAGINI */
@@ -191,3 +192,33 @@ h1 {
     object-fit: contain;
 }
 /* FINE IMMAGINI */
+/* Inizio testi */
+
+.cards h4 {
+    color: #7bbc00;
+    font-size: 20px;
+    text-align: center;
+}
+
+.cards hr {
+    width: 30px;
+    margin: 10px;
+    /* da spostare al centro ???? */
+}
+
+.cards p {
+    color: #849ab1;
+    text-align: center;
+}
+
+.pos {
+    width: 99%;
+    height: 200px;
+    margin-left: 10px;
+    margin-top: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+/* FINE TESTI */
