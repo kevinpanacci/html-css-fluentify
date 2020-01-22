@@ -172,21 +172,22 @@ h1 {
     border: 1px solid black;
     position: relative;
 }
-
-.img-1 {
-    background-image: url(https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/profile.svg?v16);
-    background-repeat: no-repeat;
-    background-size: cover;
+/* IMMAGINI */
+.img-1 img {
+    width: 300px;
+    height: 200px;
+    object-fit: contain;
 }
 
-.img-2 {
-    background-image: url(https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/computer.svg?v16);
-    background-repeat: no-repeat;
-    background-size: cover;
+.img-2 img {
+    width: 300px;
+    height: 200px;
+    object-fit: contain;
 }
 
-.img-3 {
-    background-image: url(https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/doc.svg?v16);
-    background-repeat: no-repeat;
-    background-size: cover;
+.img-3 img {
+    width: 300px;
+    height: 200px;
+    object-fit: contain;
 }
+/* FINE IMMAGINI */
