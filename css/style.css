@@ -14,10 +14,27 @@
     background-color: #0d325a;
 }
 
+/* INIZIO HEADER */
+
+.logo {
+    height: 70px;
+    width: 350px;
+    background-color: #0d325a;
+}
+
+.logo nav {
+    font-size: 60px;
+}
+
+.logo nav a {
+    text-decoration: none;
+    color: white;
+}
+
 .container {
     width: 80%;
     max-width: 1200px;
-    height: 500px;
+    margin: 0 auto;
     background-color: red;
 }
 
@@ -25,6 +42,26 @@ header {
     height: 70px;
     background-color: orange;
 }
+
+.menu {
+    height: 70px;
+    width: 560px;
+    padding-top: 30px;
+    padding-left: 90px;
+    float: right;
+    position: relative;
+    bottom: 100%;
+    background-color: #0d325a;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #849ab1;
+}
+
+
+
+/* FINE HEADER */
 
 .grigio {
     background-color: grey;
@@ -39,16 +76,16 @@ header {
     background-color: lightgrey;
 }
 
-.banner {
-    /* inserire link img omini */
-    background-image: url();
-    height: 500px;
-}
-
 .riga-bianca {
     height: 100px;
     background-color: white;
     width: 100%;
+}
+
+.banner {
+    /* inserire link img omini */
+    background-image: url();
+    height: 500px;
 }
 
 .cards {
