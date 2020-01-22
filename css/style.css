@@ -26,6 +26,13 @@
     font-size: 60px;
 }
 
+.menu button {
+    padding: 6px;
+    border-radius: 10%;
+    background-color: #7bbc00;
+    color: white;
+}
+
 .logo nav a {
     text-decoration: none;
     color: white;
@@ -83,9 +90,44 @@ header {
 }
 
 .banner {
-    /* inserire link img omini */
-    background-image: url();
     height: 500px;
+    position: relative;
+    background-color: #0d325a;
+}
+
+.banner img {
+    height: 450px;
+    display: inline-block;
+    position: absolute;
+    left: 45%;
+    top: 10%;
+}
+
+.section {
+    display: block;
+    height: 500px;
+    width: 424.5px;
+    background-color: #0d325a;
+    position: relative;
+}
+
+h1 {
+    color: white;
+    font-size: 35px;
+}
+
+.text {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text button {
+    margin-top: 50px;
+    color: white;
+    background-color: #7bbc00;
+    padding: 6px;
 }
 
 .cards {
