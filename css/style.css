@@ -16,6 +16,14 @@
 
 /* INIZIO HEADER */
 
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: red;
+    position: relative;
+}
+
 .logo {
     height: 70px;
     width: 350px;
@@ -26,23 +34,10 @@
     font-size: 60px;
 }
 
-.menu button {
-    padding: 6px;
-    border-radius: 10%;
-    background-color: #7bbc00;
-    color: white;
-}
 
 .logo nav a {
     text-decoration: none;
     color: white;
-}
-
-.container {
-    width: 80%;
-    max-width: 1200px;
-    margin: 0 auto;
-    background-color: red;
 }
 
 header {
@@ -50,44 +45,7 @@ header {
     background-color: orange;
 }
 
-.menu {
-    height: 70px;
-    width: 560px;
-    padding-top: 30px;
-    padding-left: 90px;
-    float: right;
-    position: relative;
-    bottom: 100%;
-    background-color: #0d325a;
-}
-
-.menu a {
-    text-decoration: none;
-    color: #849ab1;    
-}
-
-
-
-/* FINE HEADER */
-
-.grigio {
-    background-color: grey;
-}
-
-.bianco {
-    background-color: white;
-}
-
-.riga-grigia {
-    height: 100px;
-    background-color: lightgrey;
-}
-
-.riga-bianca {
-    height: 100px;
-    background-color: white;
-    width: 100%;
-}
+/* INIZIO BANNER */
 
 .banner {
     height: 500px;
@@ -103,6 +61,30 @@ header {
     top: 10%;
 }
 
+.menu {
+    height: 70px;
+    width: 560px;
+    padding-top: 30px;
+    padding-left: 90px;
+    float: right;
+    position: relative;
+    bottom: 100%;
+    background-color: #0d325a;
+}
+
+.menu button {
+    padding: 6px;
+    border-radius: 10%;
+    background-color: #7bbc00;
+    color: white;
+}
+
+
+.menu a {
+    text-decoration: none;
+    color: #849ab1;
+}
+
 .section {
     display: block;
     height: 500px;
@@ -110,6 +92,7 @@ header {
     background-color: #0d325a;
     position: relative;
 }
+
 
 h1 {
     color: white;
@@ -130,11 +113,80 @@ h1 {
     padding: 6px;
 }
 
+
+
+/* FINE HEADER */
+
+/* Inizio main */
+
+/* Inizio primo testo */
+
+
+.grigio {
+    background-color: white;
+}
+
+.riga-grigia {
+    height: 100px;
+    background-color: white;
+    position: relative;
+}
+
+.testo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.testo h3 {
+    color: #4a4a4a;
+    margin: 10px;
+}
+
+.testo p {
+    color: #849ab1;
+    font-size: 20px;
+}
+/*  Fine primo testo */
+
+/* riga immagini */
+.bianco {
+    background-color: white;
+}
+
+.riga-bianca {
+    height: 100px;
+    background-color: white;
+    width: 100%;
+}
+
+
+
 .cards {
     width: 33.33%;
     float: left;
     /* da cancellare */
     height: 200px;
-    background-color: purple;
+    background-color: white;
     border: 1px solid black;
+    position: relative;
+}
+
+.img-1 {
+    background-image: url(https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/profile.svg?v16);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-2 {
+    background-image: url(https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/computer.svg?v16);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-3 {
+    background-image: url(https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/doc.svg?v16);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
